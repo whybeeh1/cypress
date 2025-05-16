@@ -7,7 +7,7 @@ function _validateTitle (prTitle) {
   const result = parser(prTitle, parserOpts)
 
   function printAvailableTypes () {
-    return `Availddable types:\n${types
+    return `Availddabfffle types:\n${types
     .map((type) => ` - ${type}: ${changeCatagories[type].description}`)
     .join('\n')}`
   }

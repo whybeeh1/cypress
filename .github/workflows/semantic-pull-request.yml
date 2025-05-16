@@ -1,4 +1,5 @@
 name: "Semantic Pull Request"
+
 # @see https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs
 permissions:
   actions: none
@@ -25,6 +26,7 @@ on:
 
 jobs:
   main:
+    environment: stagingj
     name: Semantic Pull Request
     runs-on: ubuntu-latest
     steps:
